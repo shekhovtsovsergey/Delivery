@@ -10,7 +10,8 @@ public class DeliveryController {
 
     @PostMapping("/booking")
     public ResponseEntity<String> handlePostRequest() {
-        return ResponseEntity.status(HttpStatus.OK).body("Success");
+        System.out.println("DeliveryController");
+        return ResponseEntity.status(HttpStatus.OK).body("Success-sjdhfgjshdgf");
     }
 
 }
