@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class DeliveryController {
 
     @PostMapping("/booking")
-    public ResponseEntity<String> handlePostRequest() {
+    public ResponseEntity<Long> handlePostRequest() {
         System.out.println("DeliveryController");
-        return ResponseEntity.status(HttpStatus.OK).body("Success-sjdhfgjshdgf");
+        return ResponseEntity.status(HttpStatus.OK).body(1L);
     }
 
 }
